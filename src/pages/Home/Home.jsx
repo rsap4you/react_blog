@@ -15,10 +15,7 @@ function Home() {
           <h2>Welcome To</h2>
           <h1 className="text-center fw-semibold">RSAP4YOU</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
-            fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi
-            debitis, et quas voluptatibus nam ex. Necessitatibus eligendi
-            ratione expedita! Porro, ut.
+          Step into the future with RSAP4YOU, where innovation is not just a buzzword but the heartbeat of our existence. Our homepage is a portal to a realm where custom software solutions dance with creativity, and cutting-edge education becomes the catalyst for personal and professional growth. Join us in sculpting a digital masterpiece – RSAP4YOU: Your Gateway to Unleashing Possibilities, Your Home for Innovation and Excellence.
           </p>
           <div className="d-flex flex-column flex-sm-row align-items-center">
             <Link to="/courses">
@@ -51,14 +48,10 @@ function Home() {
             <div className="col-lg-5">
               <h2 className="text-capitalize">2024 start courses</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus, placeat.
+              In 2024, emerging technologies such as Quantum Computing and 5G, along with established fields like Artificial Intelligence and Cybersecurity, continue to shape educational courses, providing students with opportunities to explore cutting-edge advancements and contribute to the ever-evolving tech landscape.
               </p>
               <Link to="/courses">
-                <button
-                  type="button"
-                  className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
-                >
+                <button type="button" className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0">
                   Learn More
                 </button>
               </Link>
