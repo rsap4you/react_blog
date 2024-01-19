@@ -129,7 +129,7 @@ function App() {
         </div>
         <div className='bg-body-tertiary'>
           <div className='container'>
-            <p className='p-3 m-0 text-center'>copyright 2024 @  RSAP4YOU</p>
+            <p className='p-3 m-0 text-center'>copyright 2024 @ <b style={{color:"blue"}}> RSAP4YOU</b></p>
           </div>
         </div>
       </footer>
