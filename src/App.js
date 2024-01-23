@@ -112,8 +112,7 @@ function App() {
                 <div className='col-12 col-md-6 col-lg-7'>
                   <ul className='list-unstyled mb-0'>
                     <li>
-                      <p>Janiya Pir ka Tekra, Near Ganga Row House, Vatva (Ahmedabad,Gujarat)</p>
-                     
+                      <p>Janiya Pir ka Tekra, Near Ganga Row House, Vatva (Ahmedabad,Gujarat)</p>                    
                     </li>
                     <li>
                       <p>Phone Number - 7479441094</p>

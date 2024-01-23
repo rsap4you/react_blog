@@ -58,7 +58,8 @@ function About() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>About Us</h1>
-                <p className='text-center w-75 mb-5'>Welcome to RSAP4YOU – where dreams meet code and innovation is not just a word, but a way of life. Led by the visionary Amarjeet Kumar, a maestro in software engineering from Hyperlink Infosystem, we are on a mission to turn every challenge into a digital masterpiece. Step into our world, where expertise dances with creativity, and let's script a future that transcends expectations. At RSAP4YOU, we don't just build solutions; we craft experiences that redefine what's possible in the digital realm. Join us, and let's embark on a journey where your vision meets our expertise, and together, we shape the extraordinary.</p>
+                <p className='text-center w-75 mb-5'>
+At RSAP4YOU, where dreams meet code and innovation is a way of life, join us to craft digital masterpieces, redefine possibilities, and shape an extraordinary future under the visionary leadership of Amarjeet Kumar.</p>
             </div>
         </header>
 
@@ -66,7 +67,7 @@ function About() {
             <div className="row">
                 <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
                     <h2 className='mb-4 mb-lg-5'>Study with us</h2>
-                    <p>Embrace the thrill of knowledge at <b>'RSAP4YOU'  </b>,where each page is a gateway to enlightenment! Dive into a world of interactive learning, expert guidance, and a community passionate about academic excellence. Uncover the secrets to success with our engaging study resources, making every study session an adventure in discovery. Join the revolution of learning that goes beyond textbooks – at 'Study with Us,' we're not just shaping minds; we're creating a journey where education becomes an exhilarating experience. Unleash your potential, ignite your curiosity, and let's make studying an irresistible pursuit together!</p>
+                    <p>Embrace the thrill of knowledge at <b> RSAP4YOU</b>, where each page is a gateway to enlightenment, making studying an irresistible pursuit in a community dedicated to academic excellence and interactive learning.</p>
                     
                     <Link to="/contact">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>

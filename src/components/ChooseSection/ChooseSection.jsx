@@ -14,16 +14,19 @@ function ChooseSection() {
                                 <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"/>
                             </svg>
                         </div>
+                        
                         <Card.Body>
                             <Card.Title className='text-center text-capitalize mb-3'>
                                 2 trophies received
                             </Card.Title>
                             <Card.Text className='text-center'>
-                            Celebrating a double triumph at RSAP4YOU! 🏆🏆 We're thrilled to announce that we've clinched not one, but two prestigious trophies in recognition of our unwavering commitment to innovation and excellence. These awards are not just accolades; they symbolize the dedication of every member of the RSAP4YOU family. Join us in celebrating this milestone as we continue to push the boundaries of what's possible in the ever-evolving world of technology. Thank you for being part of our success story – here's to more victories on the horizon!
+                            RSAP4YOU celebrates a double triumph, clinching two prestigious trophies for innovation and excellence, a testament to the dedication of our family as we continue pushing the boundaries in the evolving world of technology.
                             </Card.Text>
                         </Card.Body>
                     </Card>
+
                 </div>
+
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center border-0 h-100'>
                         <div className='mt-3'>
@@ -37,12 +40,13 @@ function ChooseSection() {
                                 We keep our students happy
                             </Card.Title>
                             <Card.Text className='text-center'>
-                            At RSAP4YOU, student happiness is not just a goal; it's our guiding principle. 🌟 From engaging courses to personalized support, we've crafted an environment where learning is not just fulfilling but downright joyful. Our commitment to student satisfaction is reflected in every aspect of our programs. Join us in a community where your success is celebrated, challenges are transformed into opportunities, and every achievement is a shared victory. Because at RSAP4YOU, when our students smile, we know we're doing something right 😊📚!
+                         
+At RSAP4YOU, student happiness is not just a goal; it's our guiding principle. 🌟😊📚
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </div>
-                
+
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center border-0 h-100'>
                         <div className='mt-3'>
@@ -57,12 +61,13 @@ function ChooseSection() {
                             <Card.Text className='text-center'>
                              <p>1.Ahmedabad</p> 
                              <p>2.Biharsharif</p> 
-                            <p>3.Nalanda</p> 
-                            
+                            <p>3.Nalanda</p>  
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </div>
+
+
             </div>
         </div>
     </div>

@@ -8,6 +8,7 @@ import LondonLocationImg from '../../utils/images/food_safety_and_standard_autho
 import ManchesterLocationImg from '../../utils/images/Shanghai-_riverfront_at_night_(711064952).jpg';
 import LiverpoolLocationImg from '../../utils/images/best-malls-in-ahmedabad_0_1200.jpg';
 
+
 function Contact() {
   return (
     <div className='contact-page'>

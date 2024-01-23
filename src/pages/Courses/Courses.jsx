@@ -16,50 +16,50 @@ const courses = [
         id: 1,
         img: [ArtCourseImg],
         title: 'Art Course',
-        description: 'Unlock the magic of self-expression with our Arts Courses – where creativity knows no bounds and every stroke tells a unique story. Immerse yourself in a world of colors, shapes, and endless inspiration, as we guide you to unleash the artist within. Join us at RSAP4YOU and let your imagination soar on the wings of artistic discovery!!'
+        description: 'Unleash your creativity at RSAP4YOU Arts Courses, where every stroke tells a unique story. Immerse yourself in a world of colors and shapes, letting your imagination soar!'
         
     },
     {
         id: 2,
         img: [BusinessCourseImg],
         title: 'Business Course',
-        description: 'Elevate your business acumen and chart a course for success with our dynamic Business Courses. From strategic management to entrepreneurial mastery, we offer a transformative learning experience designed to shape leaders and innovators. Join RSAP4YOU to gain practical insights, hone your decision-making skills, and navigate the complexities of the business world. Enrich your journey toward success – where every lesson is a stepping stone to your professional triumph.'
+        description: 'Elevate your business skills at RSAP4YOU with dynamic courses, shaping leaders through practical insights and strategic mastery. Navigate the complexities of the business world and step confidently towards professional triumph.'
     },
     {
         id: 3,
         img: [ComputerScienceCourseImg],
         title: 'Computer Science Course',
-        description: 'Embark on a journey of digital discovery with our Computer Science Courses – where coding is an art, and innovation is the language. Dive into the heart of technology, explore algorithms, and master programming languages that open doors to a realm of endless possibilities. Join RSAP4YOU to cultivate the skills that shape the future, as we decode the secrets of the digital landscape together. Unleash your potential in the world of computer science, where every line of code is a step towards innovation.'
+        description: 'Embark on a digital discovery at RSAP4YOU Computer Science Courses, where coding is an art and innovation is the language. Unleash your potential in the world of computer science, with each line of code a step towards innovation'
     },
     {
         id: 4,
         img: [EducationCourseImg],
         title: 'Education Course',
-        description: 'Transform your passion for education into expertise with our empowering Education Courses. Dive into a realm where teaching becomes an art, and learning is a lifelong adventure. Explore innovative pedagogies, educational psychology, and curriculum design, all within a supportive community dedicated to shaping the educators of tomorrow. Join RSAP4YOU and lets redefine the future of education together – where knowledge becomes a catalyst for positive change.!'
+        description: 'Transform your passion for education into expertise at RSAP4YOU Education Courses. Dive into the art of teaching, explore innovative pedagogies, and redefine the future of education, where knowledge is a catalyst for positive change.'
     },
     {
         id: 5,
         img: [HealthcareCourseImg],
         title: 'Healthcare Course',
-        description: 'Embark on a healing journey and explore the world of healthcare with our comprehensive Healthcare Courses. From cutting-edge medical advancements to compassionate patient care, our programs are crafted to equip you with the skills and knowledge needed to make a difference. Join RSAP4YOU to immerse yourself in the art and science of healthcare, where each course is a step towards fostering wellness and shaping a healthier future. Ignite your passion for healing and enroll in courses that go beyond textbooks, preparing you for a fulfilling career in the dynamic field of healthcare.!'
+        description: 'Join RSAP4YOU to explore the art and science of healthcare, igniting your passion for healing and preparing for a fulfilling career in this dynamic field.'
     },
     {
         id: 6,
         img: [LawCourseImg],
         title: 'Law Course',
-        description: 'Unlock the gates to justice and embark on a transformative legal journey with our dynamic Law Courses. Delve into the intricacies of the legal system, sharpen your analytical skills, and explore the art of advocacy. Join RSAP4YOU to immerse yourself in a comprehensive legal education where theory meets practice. Our courses empower you to navigate the complexities of law, equipping you with the knowledge and expertise to champion justice. Step into the world of legal excellence with us and shape the future of jurisprudence.!'
+        description: 'Embark on a transformative legal journey at RSAP4YOU, where dynamic Law Courses empower you to champion justice, navigate complexities, and shape the future of jurisprudence.'
     },
     {
         id: 7,
         img: [MusicCourseImg],
         title: 'Music Course',
-        description: 'Harmonize your passion for music with our extraordinary Music Courses. Dive into the rhythmic universe, where melody meets technique, and creativity knows no bounds. Whether you are a budding musician or a seasoned pro, join RSAP4YOU to refine your skills, explore diverse genres, and discover the symphony within. Let our courses be the soundtrack to your musical journey, where every note resonates with the joy of self-expression. Enroll now and compose the future of your musical destiny!'
+        description: 'Harmonize your passion for music at RSAP4YOU, where extraordinary Music Courses empower you to refine skills, explore diverse genres, and compose the future of your musical destiny.'
     },
     {
         id: 8,
         img: [SportCourseImg],
         title: 'Sport Course',
-        description: 'Dive into the world of athleticism and passion with our invigorating Sports Courses. From honing your skills to understanding sports science, our dynamic programs cater to both enthusiasts and aspiring professionals. Join RSAP4YOU to unlock the secrets of peak performance, strategy, and sports management. Whether you dream of breaking records or shaping the future of sports leadership, our courses are your pathway to success. Gear up for a thrilling journey in the realm of sports excellence with us!'
+        description: 'Immerse yourself in the world of athleticism at RSAP4YOU, where invigorating Sports Courses unlock the secrets of peak performance, strategy, and sports management, paving your pathway to success in the realm of sports excellence.'
     },
 ];
 

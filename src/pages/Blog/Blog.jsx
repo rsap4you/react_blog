@@ -58,15 +58,23 @@ const blogs = [
         title: 'Blog 10',
         content: <ReactPlayer url='https://www.youtube.com/watch?v=fHZnThjH7dU&t=30s' />,
     },
+    
 ];
 
 function Blog() {
     return (
         <div className='blog-page'>
         <header className='height-75'>
-            <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>Blog</h1>
-                <p className='text-center w-75 mb-5'>Welcome to the RSAP4YOU Blog - Your Gateway to Innovation and Excellence! Delve into a world where technology meets creativity, curated by the visionaries at RSAP4YOU. Join us on a journey of insightful articles, expert perspectives, and success stories that illuminate the forefront of software development and digital transformation. Whether you're a tech enthusiast, business leader, or aspiring innovator, our blog is your go-to destination for staying ahead in the ever-evolving tech landscape. Explore the latest trends, gain valuable insights, and be inspired by the limitless possibilities of technology with RSAP4YOU. Let's embark on this digital odyssey together.</p>
+            <div className='container h-100 d-flex flex-row align-items-center justify-content-center text-light'>
+           
+                <p className='text-center w-75 mb-5'>Welcome to RSAP4YOU – Your Gateway to Innovation and Excellence, where technology meets creativity in a digital odyssey of insightful articles, expert perspectives, and success stories, making our blog your go-to destination for staying ahead in the ever-evolving tech landscape.
+
+
+
+
+
+
+.</p>
             </div>
         </header>
 
@@ -74,7 +82,7 @@ function Blog() {
             <div className="container">
                 <div className="row g-4">
                 {blogs.map((blog) => (
-                            <div key={blog.id} className='col-md-6 col-lg-6'>
+                            <div key={blog.id} className='col-md-4 col-lg-4'>
                                 <Link to="/blog" className='text-decoration-none'>
                                     {/* <Card className='h-100 shadow scale-hover-effect bg-dark text-light border-0'> */}
                                         {/* <Card.Body className='p-md-5 d-flex flex-column align-items-center'> */}
