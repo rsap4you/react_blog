@@ -59,7 +59,6 @@ const blogs = [
       <ReactPlayer url="https://www.youtube.com/watch?v=fHZnThjH7dU&t=30s" />
     ),
   },
-  
 ];
 
 function Blog() {
@@ -83,16 +82,13 @@ function Blog() {
             {blogs.map((blog) => (
               <div key={blog.id} className="col-md-4 col-lg-4">
                 <Link to="/blog" className="text-decoration-none">
-               
-                    <Card.Body className='p-md-5 d-flex flex-column align-items-center'>
-                      <ReactPlayer
-                        url={blog.content.props.url}
-                        width={364}
-                        height={264}
-                      />
-                   
-                    </Card.Body>
-                  
+                  <Card.Body className="p-md-5 d-flex flex-column align-items-center">
+                    <ReactPlayer
+                      url={blog.content.props.url}
+                      width={364}
+                      height={264}
+                    />
+                  </Card.Body>
                 </Link>
               </div>
             ))}
