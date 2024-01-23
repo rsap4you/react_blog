@@ -82,7 +82,7 @@ function Blog() {
             <div className="container">
                 <div className="row g-4">
                 {blogs.map((blog) => (
-                            <div key={blog.id} className='col-md-4 col-lg-4'>
+                            <div key={blog.id} className='col-md-6 col-lg-6'>
                                 <Link to="/blog" className='text-decoration-none'>
                                     {/* <Card className='h-100 shadow scale-hover-effect bg-dark text-light border-0'> */}
                                         {/* <Card.Body className='p-md-5 d-flex flex-column align-items-center'> */}
