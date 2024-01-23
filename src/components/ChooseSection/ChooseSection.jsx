@@ -40,8 +40,7 @@ function ChooseSection() {
                                 We keep our students happy
                             </Card.Title>
                             <Card.Text className='text-center'>
-                         
-At RSAP4YOU, student happiness is not just a goal; it's our guiding principle. 🌟😊📚
+                                At RSAP4YOU, student happiness is not just a goal; it's our guiding principle. 🌟😊📚
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -61,7 +60,7 @@ At RSAP4YOU, student happiness is not just a goal; it's our guiding principle. �
                             <Card.Text className='text-center'>
                              <p>1.Ahmedabad</p> 
                              <p>2.Biharsharif</p> 
-                            <p>3.Nalanda</p>  
+                             <p>3.Nalanda</p>  
                             </Card.Text>
                         </Card.Body>
                     </Card>
