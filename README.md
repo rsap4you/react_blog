@@ -1,7 +1,6 @@
 # React JS University Website Project | Tutorial for Beginners
 
-
-<img src="React JS University Website Img.jpg" alt="React JS University Website" />
+Demo:https://rsap4youblog.netlify.app/
 
 ## For this website I used:
 - [React JS](https://react.dev/)
