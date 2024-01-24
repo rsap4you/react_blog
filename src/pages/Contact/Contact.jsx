@@ -16,6 +16,7 @@ function Contact() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
+  const [mobile, setMobile] = useState('');
   const [address, setAddress] = useState('');
   const [location, setLocation] = useState('');
   const [postcode, setPostcode] = useState('');
@@ -33,6 +34,7 @@ function Contact() {
     const templateParams = {
       from_name: `${firstName} ${lastName}`,
       from_email: email,
+       mobile:mobile,
       to_name: 'RSAP4YOU',
       address: address,
       location: location,
@@ -53,6 +55,7 @@ function Contact() {
         setFirstName('');
         setLastName('');
         setEmail('');
+        setMobile('');
         setAddress('');
         setLocation('');
         setPostcode('');
@@ -103,6 +106,7 @@ function Contact() {
                 onChange={(e) => setFirstName(e.target.value)}
               />
             </Col>
+
             <Col sm={12} md={6}>
               <Form.Label>Last Name</Form.Label>
               <Form.Control
@@ -123,6 +127,18 @@ function Contact() {
             />
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.
+            </Form.Text>
+          </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Mobile</Form.Label>
+            <Form.Control
+              type="mobile"
+              placeholder="Enter Mobile Number"
+              value={mobile}
+              onChange={(e) => setMobile(e.target.value)}
+            />
+            <Form.Text className="text-muted">
+              We'll never share your mobile number with anyone else.
             </Form.Text>
           </Form.Group>
 
