@@ -125,7 +125,7 @@ function App() {
                   <ul className='list-unstyled mb-0'>
 
                     <li>
-                      <p> D-19,Janiya Pir ka Tekra, Near Ganga Row House, Vatva (Ahmedabad,Gujarat)</p>
+                      <p> C-19,Janiya Pir ka Tekra, Near Ganga Row House, Vatva (Ahmedabad,Gujarat)</p>
                       <p> Phone Number - 7479441094</p>
                       <p>Email - Kumaramarjeetraj7725@gmail.com</p>
                       <p>Pincode - 382445</p>
