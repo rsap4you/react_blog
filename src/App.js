@@ -25,13 +25,13 @@ function App() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-light' />
           <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='me-auto justify-content-end w-100'>
-  <Link to='/' className='nav-link text-uppercase'>Home</Link>
-  <Link to='/courses' className='nav-link text-uppercase'>Our courses</Link>
-  <Link to='/about' className='nav-link text-uppercase'>About us</Link>
-  <Link to='/blog' className='nav-link text-uppercase'>Blog</Link>
-  <Link to='/contact' className='nav-link text-uppercase'>Get in touch</Link>
-</Nav>
+            <Nav className='me-auto justify-content-end w-100'>
+              <Link to='/' className='nav-link text-uppercase'>Home</Link>
+              <Link to='/courses' className='nav-link text-uppercase'>Our courses</Link>
+              <Link to='/about' className='nav-link text-uppercase'>About us</Link>
+              <Link to='/blog' className='nav-link text-uppercase'>Blog</Link>
+              <Link to='/contact' className='nav-link text-uppercase'>Get in touch</Link>
+            </Nav>
 
           </Navbar.Collapse>
         </Container>
