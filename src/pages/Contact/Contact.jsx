@@ -26,6 +26,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     console.log('Form submitted!');
     const serviceId = 'service_76xt7q8';
     const templateId = 'template_jj49wv6';
@@ -104,6 +105,7 @@ function Contact() {
                 placeholder="First name"
                 value={firstName}
                 onChange={(e) => setFirstName(e.target.value)}
+                required
               />
             </Col>
 
@@ -114,6 +116,7 @@ function Contact() {
                 placeholder="Last name"
                 value={lastName}
                 onChange={(e) => setLastName(e.target.value)}
+                required
               />
             </Col>
           </Row>
@@ -124,6 +127,7 @@ function Contact() {
               placeholder="Enter email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.
@@ -136,6 +140,7 @@ function Contact() {
               placeholder="Enter Mobile Number"
               value={mobile}
               onChange={(e) => setMobile(e.target.value)}
+              required
             />
             <Form.Text className="text-muted">
               We'll never share your mobile number with anyone else.
@@ -149,6 +154,7 @@ function Contact() {
               placeholder="Your address"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
+              required
             />
           </Form.Group>
 
@@ -161,7 +167,9 @@ function Contact() {
                 onChange={(e) => {
                   console.log("Selected location:", e.target.value);
                   setLocation(e.target.value);
+                  
                 }}
+                required
               >
                 <option>Ahmedabad</option>
                 <option>Biharsharif</option>
@@ -176,6 +184,7 @@ function Contact() {
                 placeholder="Postcode"
                 value={postcode}
                 onChange={(e) => setPostcode(e.target.value)}
+                required
               />
             </Col>
           </Row>
@@ -187,6 +196,7 @@ function Contact() {
               rows={3}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              required
             />
           </Form.Group>
 
