@@ -5,8 +5,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import LondonLocationImg from '../../utils/images/food_safety_and_standard_authority_of_india_clean_street_food_hub_ahmedabad_kankaria_lake_1536401601.jpg';
-import ManchesterLocationImg from '../../utils/images/Shanghai-_riverfront_at_night_(711064952).jpg';
-import LiverpoolLocationImg from '../../utils/images/best-malls-in-ahmedabad_0_1200.jpg';
+import Jal_mandir from '../../utils/images/jal_mandir.jpg';
+import Nalanda_university from '../../utils/images/nalanda_university.jpg';
 
 
 function Contact() {
@@ -73,17 +73,18 @@ function Contact() {
             <div className='container'>
                 <h2 className='text-center mb-5'>Our Locations</h2>
                 <div className='row g-4'>
+                <div className='col-lg-4 d-flex flex-column align-items-center'>
+                        <img src={Nalanda_university} className='img-fluid' alt=""   style={{width:"500px",height:"300px"}}/>
+                        <h3 className='text-center mt-3'>Nalanda</h3>
+                    </div>
+                    <div className='col-lg-4 d-flex flex-column align-items-center'>
+                        <img src={Jal_mandir} className='img-fluid' alt=""  style={{width:"500px",height:"300px"}}/>
+                        <h3 className='text-center mt-3'>Pawapuri</h3>
+                    </div>
+                  
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
                         <img src={LondonLocationImg} className='img-fluid' alt=""  style={{width:"500px",height:"300px"}}/>
                         <h3 className='text-center mt-3'>Kankaria Lake</h3>
-                    </div>
-                    <div className='col-lg-4 d-flex flex-column align-items-center'>
-                        <img src={ManchesterLocationImg} className='img-fluid' alt=""  style={{width:"500px",height:"300px"}}/>
-                        <h3 className='text-center mt-3'>Patang Hotel</h3>
-                    </div>
-                    <div className='col-lg-4 d-flex flex-column align-items-center'>
-                        <img src={LiverpoolLocationImg} className='img-fluid' alt=""   style={{width:"500px",height:"300px"}}/>
-                        <h3 className='text-center mt-3'>Ahmedabad</h3>
                     </div>
                 </div>
             </div>
