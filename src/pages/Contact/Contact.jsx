@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Contact.css';
 import KankariyaImg from '../../utils/images/food_safety_and_standard_authority_of_india_clean_street_food_hub_ahmedabad_kankaria_lake_1536401601.jpg';
@@ -9,10 +9,10 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-import Swal from 'sweetalert2';  // Import SweetAlert
+import Swal from 'sweetalert2'; // Import SweetAlert
 
 function Contact() {
-    const form = useRef();
+  const form = useRef();
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -45,10 +45,10 @@ function Contact() {
       .then((response) => {
         console.log('Email sent successfully!', response);
         Swal.fire({
-            icon: 'success',
-            title: 'Email sent successfully!',
-            text: 'We will reply as soon as possible.',
-          });
+          icon: 'success',
+          title: 'Email sent successfully!',
+          text: 'We will reply as soon as possible.',
+        });
         setSuccessMessage('We will reply as soon as possible.');
         setFirstName('');
         setLastName('');
@@ -65,10 +65,10 @@ function Contact() {
       .catch((error) => {
         console.error('Error sending email:', error);
         Swal.fire({
-            icon: 'error',
-            title: 'Error sending email',
-            text: 'Please try again later.',
-          });
+          icon: 'error',
+          title: 'Error sending email',
+          text: 'Please try again later.',
+        });
       });
   };
 
@@ -87,7 +87,12 @@ function Contact() {
 
       {/* Form Section */}
       <div className="container my-5 d-flex justify-content-center">
-        <Form ref={form} onSubmit={handleSubmit} className="emailForm" id="contact-form">
+        <Form
+          ref={form}
+          onSubmit={handleSubmit}
+          className="emailForm"
+          id="contact-form"
+        >
           <Row className="mb-3">
             <Col sm={12} md={6} className="mb-3 mb-md-0">
               <Form.Label>First Name</Form.Label>
@@ -137,13 +142,17 @@ function Contact() {
               <Form.Control
                 as="select"
                 value={location}
-                onChange={(e) => setLocation(e.target.value)}
+                onChange={(e) => {
+                  console.log("Selected location:", e.target.value);
+                  setLocation(e.target.value);
+                }}
               >
                 <option>Ahmedabad</option>
                 <option>Biharsharif</option>
                 <option>Nalanda</option>
               </Form.Control>
             </Col>
+
             <Col sm={12} md={6}>
               <Form.Label>Postcode</Form.Label>
               <Form.Control
@@ -164,7 +173,6 @@ function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </Form.Group>
-         
 
           <Button variant="danger btn-lg" type="submit">
             Submit
