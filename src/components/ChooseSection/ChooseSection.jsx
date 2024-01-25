@@ -83,7 +83,7 @@ function ChooseSection() {
                 </Card.Title>
                 <Card.Text className="text-center">
                   <p> 1. Nalanda</p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;2. Biharsharif</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;2. Pawapuri</p>
                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ahmedabad</p>
                 </Card.Text>
               </Card.Body>

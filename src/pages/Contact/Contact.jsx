@@ -172,7 +172,7 @@ function Contact() {
                 required
               >
                 <option>Ahmedabad</option>
-                <option>Biharsharif</option>
+                <option>  <p>Pawapuri</p></option>
                 <option>Nalanda</option>
               </Form.Control>
             </Col>
