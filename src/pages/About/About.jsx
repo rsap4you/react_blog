@@ -8,10 +8,10 @@ import Person2 from '../../utils/images/person2.jpg';
 import Person3 from '../../utils/images/person3.jpg';
 import Person4 from '../../utils/images/person4.jpg';
 import Person5 from '../../utils/images/person5.jpg';
-import Person6 from '../../utils/images/person6.jpg';
-import Person7 from '../../utils/images/person7.jpg';
-import Person8 from '../../utils/images/person8.jpg';
-import Person9 from '../../utils/images/person9.jpg';
+import Person6 from '../../utils/images/pg4degree.jpg';
+import Person7 from '../../utils/images/pg3degree.jpg';
+import Person8 from '../../utils/images/pg2degree.jpg';
+import Person9 from '../../utils/images/pg1degree.jpg';
 
 const persons = [
     {
