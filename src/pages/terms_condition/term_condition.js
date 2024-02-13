@@ -4,9 +4,11 @@ import image_header from '../../utils/images/about-page-header.jpg'
 const Term_condition = () => {
   return (
     <div className="term-page-fluid">
-     <div className='image_div'  >
- 
-</div>
+      <div className='image_div'>
+      <div className='center-container'>
+        <h1 className='text-center'>Terms and Conditions</h1>
+      </div>
+    </div>
 
       <div className='terms' style={{ marginLeft: "11%" }}>
         <div className="text-black p-4">
