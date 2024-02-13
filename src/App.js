@@ -35,7 +35,6 @@ function App() {
               <Link to='/about' className='nav-link text-uppercase'>About us</Link>
               <Link to='/blog' className='nav-link text-uppercase'>Blog</Link>
               <Link to='/contact' className='nav-link text-uppercase'>Get in touch</Link>
-             
               <Link to='/term_condition' className='nav-link text-uppercase'>Term&condition</Link>
             </Nav>
 
