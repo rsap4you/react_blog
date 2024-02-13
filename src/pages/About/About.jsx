@@ -59,7 +59,7 @@ function About() {
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>About Us</h1>
                 <p className='text-center w-75 mb-5'>
-At RSAP4YOU, where dreams meet code and innovation is a way of life, join us to craft digital masterpieces, redefine possibilities, and shape an extraordinary future under the visionary leadership of Amarjeet Kumar.</p>
+                 At RSAP4YOU, where dreams meet code and innovation is a way of life, join us to craft digital masterpieces, redefine possibilities, and shape an extraordinary future under the visionary leadership of Amarjeet Kumar.</p>
             </div>
         </header>
 
@@ -67,7 +67,7 @@ At RSAP4YOU, where dreams meet code and innovation is a way of life, join us to 
             <div className="row">
                 <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
                     <h2 className='mb-4 mb-lg-5'>Study with us</h2>
-                    <p>Embrace the thrill of knowledge at <b> RSAP4YOU</b>, where each page is a gateway to enlightenment, making studying an irresistible pursuit in a community dedicated to academic excellence and interactive learning.</p>
+                    <p>Embrace the thrill of knowledge at <b> RSAP4YOU</b>,where each page is a gateway to enlightenment, making studying an irresistible pursuit in a community dedicated to academic excellence and interactive learning.</p>
                     
                     <Link to="/contact">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
@@ -82,7 +82,6 @@ At RSAP4YOU, where dreams meet code and innovation is a way of life, join us to 
         <div className='bg-dark text-light py-5'>
             <ChooseSection />
         </div>
-
         <div className='bg-body-tertiary py-5'>
             <div className="container">
                 <h2 className='text-center mb-5'>Our Winners</h2>
@@ -99,4 +98,4 @@ At RSAP4YOU, where dreams meet code and innovation is a way of life, join us to 
   )
 }
 
-export default About;
+export default About;   

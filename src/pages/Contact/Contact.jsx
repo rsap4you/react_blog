@@ -221,7 +221,7 @@ function Contact() {
             <div className="col-lg-4 d-flex flex-column align-items-center">
               <img
                 src={Nalanda_university}
-                className="img-fluid"
+                className="img-fluid  w-100"
                 alt=""
                 style={{ width: "500px", height: "300px" }}
               />

@@ -9,6 +9,10 @@ import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
 import logoImage from './utils/images/logo-1.jpg'
+import Term_condition from './pages/terms_condition/term_condition';
+//  -------------------------------Google adsence --------------------
+
+
 function App() {
   return (
     <div>
@@ -31,11 +35,13 @@ function App() {
               <Link to='/about' className='nav-link text-uppercase'>About us</Link>
               <Link to='/blog' className='nav-link text-uppercase'>Blog</Link>
               <Link to='/contact' className='nav-link text-uppercase'>Get in touch</Link>
+             
+
             </Nav>
 
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar>   
 
       <Routes>
         <Route path='/' element={<Home />} />
@@ -43,9 +49,11 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/term_condition' element={<Term_condition />} />
       </Routes>
 
       <footer>
+        
         <div className='container my-5'>
           <div className='row d-flex justify-content-between align-items-center'>
             <div className='col-md-4'>
@@ -96,10 +104,10 @@ function App() {
                     </svg>
                   </a>
                 </li>
-
-
               </ul>
+
             </div>
+
             <div className='col-md-7 col-lg-6'>
               <div className='d-row d-md-flex justify-content-between align-items-center'>
                 <div className='col-12 col-md-6 col-lg-5 mb-5 mt-4 my-md-0'>
@@ -119,6 +127,9 @@ function App() {
                     <Link to="/contact" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Get In Touch</li>
                     </Link>
+                    <Link to="/term_condition" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Terms&condition</li>
+                    </Link>
                   </ul>
                 </div>
                 <div className='col-12 col-md-6 col-lg-7'>
@@ -130,6 +141,7 @@ function App() {
                       <p>Email - Kumaramarjeetraj7725@gmail.com</p>
                       <p>Pincode - 382445</p>
                     </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -141,6 +153,7 @@ function App() {
             <p className='p-3 m-0 text-center'>copyright 2024 @ <b style={{ color: "blue" }}> RSAP4YOU</b></p>
           </div>
         </div>
+      
       </footer>
     </div>
   );
