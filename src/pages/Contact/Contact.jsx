@@ -28,6 +28,7 @@ function Contact() {
     e.preventDefault();
 
     console.log('Form submitted!');
+    // emailjs used 
     const serviceId = 'service_76xt7q8';
     const templateId = 'template_jj49wv6';
     const publicKey = 'EGeOqZblf4JbZR64I';

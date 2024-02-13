@@ -1,62 +1,6 @@
-.term-page header {
+.image_div {
     background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/home-page-header.jpg);
-}
-
-header {
-    background-size: cover;
-    background-position: center;
-}
-body {
-    
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h1 {
-    color: #070606;
-    text-align: center;
-  }
-  
-  h2 {
-    color: #1a1818;
-  }
-  
-  p {
-    color: #111111;
-    line-height: 1.6;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-
-
-
-  .overlay {
-    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/contact-page-header.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;  /* Adjusted height to cover the entire viewport height */
-    width: 100%;    /* Set width to 100% to cover the entire width */
-}
-
-
-
-.blog-section {
-    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/blog-section-img.jpg);
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    height:20vh;
+    color:white;
 }

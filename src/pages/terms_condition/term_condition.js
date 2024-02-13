@@ -1,11 +1,10 @@
 import React from 'react';
 import './term_condition.css';
-
+import image_header from '../../utils/images/about-page-header.jpg'
 const Term_condition = () => {
   return (
     <div className="term-page-fluid">
-     <div className="overlay" style={{ width: "100%", height:"60vh",display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
-    <h1 className="text-white text-center mt-5">Terms and Conditions</h1>
+     <div className='image_div'  >
  
 </div>
 
