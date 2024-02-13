@@ -36,7 +36,7 @@ function App() {
               <Link to='/blog' className='nav-link text-uppercase'>Blog</Link>
               <Link to='/contact' className='nav-link text-uppercase'>Get in touch</Link>
              
-
+              <Link to='/term_condition' className='nav-link text-uppercase'>Term&condition</Link>
             </Nav>
 
           </Navbar.Collapse>
