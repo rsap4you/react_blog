@@ -1,6 +1,6 @@
 # React JS University Website Project | Tutorial for Beginners
 
-Demo:https://rsap4youblog.netlify.app/
+Demo:https://rsa4youblog.netlify.app/
 
 ## For this website I used:
 - [React JS](https://react.dev/)

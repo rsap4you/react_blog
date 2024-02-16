@@ -1,8 +1,10 @@
 import React from 'react';
 import './term_condition.css';
 import image_header from '../../utils/images/about-page-header.jpg'
+
 const Term_condition = () => {
   return (
+
     <div className="term-page-fluid">
       <div className='image_div'>
       <div className='center-container'>

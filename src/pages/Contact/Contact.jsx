@@ -16,7 +16,7 @@ function Contact() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
-  const [mobile, setMobile] = useState('');
+  const [mobile, setMobile] = useState('');  
   const [address, setAddress] = useState('');
   const [location, setLocation] = useState('');
   const [postcode, setPostcode] = useState('');

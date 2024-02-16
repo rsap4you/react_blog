@@ -14,15 +14,10 @@ function Home() {
         <div className="container d-flex flex-column align-items-center">
           <h2>Welcome To</h2>
           <h1 className="text-center fw-semibold">RSAP4YOU</h1>
-          <p>
-          Step into the future with RSAP4YOU, where innovation is not just a buzzword but the heartbeat of our existence. Our homepage is a portal to a realm where custom software solutions dance with creativity, and cutting-edge education becomes the catalyst for personal and professional growth. Join us in sculpting a digital masterpiece – RSAP4YOU: Your Gateway to Unleashing Possibilities, Your Home for Innovation and Excellence.
-          </p>
+          <p>Step into the future with RSAP4YOU, where innovation is not just a buzzword but the heartbeat of our existence. Our homepage is a portal to a realm where custom software solutions dance with creativity, and cutting-edge education becomes the catalyst for personal and professional growth. Join us in sculpting a digital masterpiece – RSAP4YOU: Your Gateway to Unleashing Possibilities, Your Home for Innovation and Excellence. </p>
           <div className="d-flex flex-column flex-sm-row align-items-center">
             <Link to="/courses">
-              <button
-                type="button"
-                className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
-              >
+              <button type="button" className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0">
                 Our Courses
               </button>
             </Link>
