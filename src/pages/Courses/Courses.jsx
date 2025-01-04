@@ -69,7 +69,7 @@ function Courses() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>Our Courses</h1>
-                <p className='text-center w-75 mb-5'>Embark on an educational odyssey with our captivating courses – where learning is not just a journey, but an adventure that transforms your potential into power. Uncover the secrets of success through our dynamic curriculum, designed to ignite your curiosity and propel you toward excellence. At <b> RSAP4YOU</b>. we don't just offer courses; we provide keys to unlock the doors of opportunity. Elevate your skills, ignite your passion, and let's redefine the future together!</p>
+                <p className='text-center w-75 mb-5'>Unlock your potential with RSAP4YOU's transformative courses, where learning becomes an adventure toward success and excellence.</p>
             </div>
         </header>
 
